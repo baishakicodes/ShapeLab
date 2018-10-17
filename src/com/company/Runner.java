@@ -20,7 +20,7 @@ public class Runner {
     for (Shape cur : shapes){
         System.out.println(cur);
         System.out.println("My area is: "+cur.getArea());
-        System.out.println("My perimeter is: "+cur.getPerimeter());
+        System.out.println("My perimeter is: "+cur.getPerimeter())
     }
 
     }
