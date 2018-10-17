@@ -1,6 +1,6 @@
 package candacepolisi;
 import com.company.Shape;
-public class Circle {
+
     public class Circle extends Shape {
         private int radius;
 
