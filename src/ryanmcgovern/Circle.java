@@ -1,4 +1,4 @@
-package candacepolisi;
+package ryanmcgovern;
 import com.company.Shape;
 
     public class Circle extends Shape {
@@ -9,11 +9,14 @@ import com.company.Shape;
             this.radius=radius;
         }
 
+        @Override
         public double getArea() {
             return Math.PI * radius* radius;
         }
-        public double getPerimeter() {
 
+        @Override
+        public double getPerimeter() {
+            return Math.PI * (radius * 2);
         }
     }
-}
+
